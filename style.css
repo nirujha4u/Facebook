@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 425px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    position: relative;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.page-name {
+    justify-content: center;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.right-part {
+    font-size: 22px;
+    font-weight: 100;
+    color: grey;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.tag {
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag p a {
+    color: #578bce;
+    font-weight: 100;
+}
+
+.right-part span {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.right-part span:hover {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+.pic {
+    position: relative;
+}
+
+.picture {
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.numbers {
+    height: 30px;
+}
+
+footer {
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.like {
+    width: 150px;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.like:hover {
+    background: #f2f2f2;
+    border-radius: 6px;
+    padding: 5px 0;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#post-display {
+    width: 300px;
+    margin-left: 540px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 68px;
+    display: none;
+}
+
+#post-display1 {
+    width: 300px;
+    left: 40%;
+    top: 670px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+}
+
+/* .heart {
+    color:white;
+    font-size: 15px;
+    opacity: 0.1;
+    position: absolute;
+    margin: 230px 200px;
+} */
+
+.heart-red {
+    color: red;
+    font-size: 66px;
+    position: absolute;
+    margin: 220px 200px;
+}
+
+
+
+
+
+
+.niraj {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.niraj img {
+    width: 100%;
+}
